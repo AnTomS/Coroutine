@@ -5,6 +5,8 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import java.util.concurrent.TimeUnit
 
+private val BASE_URL = "http://192.168.0.103:9999"
+private val gson = Gson()
 private val client = OkHttpClient.Builder()
     .addInterceptor(HttpLoggingInterceptor().apply {
         level = HttpLoggingInterceptor.Level.BASIC
@@ -12,7 +14,9 @@ private val client = OkHttpClient.Builder()
     .connectTimeout(30, TimeUnit.SECONDS)
     .build()
 
-private val gson = Gson()
+
+
+fun makepost() {}
 
 
 
