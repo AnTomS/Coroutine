@@ -1,3 +1,5 @@
+import ru.netology.dto.Attachment
+
 data class Post (
     val id: Long,
     val authorId: Long,

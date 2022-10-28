@@ -1,3 +1,5 @@
+package ru.netology.dto
+
 data class Comment(
     val id: Long,
     val postId: Long,
