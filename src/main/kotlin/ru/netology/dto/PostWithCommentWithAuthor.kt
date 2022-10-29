@@ -5,5 +5,5 @@ import Post
 data class PostWithCommentWithAuthor (
     val post: Post,
     val author: Author,
-    val comments: List<CommentWithAuthor>
+    val comments: List<CommentWithAuthor>,
         )
